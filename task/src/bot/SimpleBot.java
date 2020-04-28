@@ -7,9 +7,12 @@ public class SimpleBot {
     public static void main(String[] args) {
 
         Bot bot = new Bot();
+
         bot.printGreetings();
 
         bot.introduceUser();
+
+        bot.countToEnteredNumber();
     }
 }
 
@@ -35,6 +38,15 @@ class Bot {
 
     public void countToEnteredNumber(){
         Scanner scan = new Scanner(System.in);
-
+        System.out.println("Now I will prove to you that I can count to any number you want.");
+        int enteredNumber = scan.nextInt();
+        if (enteredNumber >= 0) {
+            for (int i = 0; i <= enteredNumber; i++) {
+                System.out.println(i + "!");
+            }
+            System.out.println("Completed, have a nice day!");
+        } else {
+            System.out.println("Please, enter the number, that is bigger that 0");
+        }
     }
 }
