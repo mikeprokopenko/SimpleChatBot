@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="PersonalAssistantTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-28T13:07:25" hostname="Mike-PC" time="0.06">
+<testsuite name="PersonalAssistantTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-28T13:24:22" hostname="Mike-PC" time="0.065">
   <properties/>
-  <testcase name="start" classname="PersonalAssistantTest" time="0.06"/>
+  <testcase name="start" classname="PersonalAssistantTest" time="0.065"/>
   <system-out><![CDATA[?[1;31m
 Start test 1?[0m
 Hello! My name is Alice.
@@ -27,6 +27,17 @@ Now I will prove to you that I can count to any number you want.
 9!
 10!
 Completed, have a nice day!
+Let's test your programming knowledge.
+Why do we use methods?
+1. To repeat a statement multiple times.
+2. To decompose a program into several small subroutines.
+3. To determine the execution time of a program.
+4. To interrupt the execution of a program.
+
+> 1
+Please, try again.
+> 2
+Congratulations, have a nice day!
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

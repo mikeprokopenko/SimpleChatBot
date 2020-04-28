@@ -13,6 +13,8 @@ public class SimpleBot {
         bot.introduceUser();
 
         bot.countToEnteredNumber();
+
+        bot.testTheUser();
     }
 }
 
@@ -48,5 +50,25 @@ class Bot {
         } else {
             System.out.println("Please, enter the number, that is bigger that 0");
         }
+    }
+
+    public void testTheUser() {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Let's test your programming knowledge.\nWhy do we use methods?\n" +
+                "1. To repeat a statement multiple times.\n" +
+                "2. To decompose a program into several small subroutines.\n" +
+                "3. To determine the execution time of a program.\n" +
+                "4. To interrupt the execution of a program.\n");
+
+        while (true) {
+            int answer = scan.nextInt();
+            if (answer == 2) {
+                break;
+            } else {
+                System.out.println("Please, try again.");
+            }
+        }
+
+        System.out.println("Congratulations, have a nice day!");
     }
 }
